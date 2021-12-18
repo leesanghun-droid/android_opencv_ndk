@@ -1,0 +1,7 @@
+Executable : /home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/Debug/50422l1l/arm64-v8a
+opencv_test4
+jvmArgs : 
+

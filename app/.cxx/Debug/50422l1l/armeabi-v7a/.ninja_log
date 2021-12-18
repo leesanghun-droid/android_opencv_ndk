@@ -1,0 +1,7 @@
+# ninja log v5
+0	340	1639794836	CMakeFiles/opencv_test4.dir/native-lib.cpp.o	72cb97036939cc98
+341	370	1639794836	/home/lsh/AndroidStudioProjects/opencv_test4/app/build/intermediates/cxx/Debug/50422l1l/obj/armeabi-v7a/libopencv_test4.so	a9c46c8758a5ff7
+1	353	1639795273	CMakeFiles/opencv_test4.dir/native-lib.cpp.o	72cb97036939cc98
+353	381	1639795273	/home/lsh/AndroidStudioProjects/opencv_test4/app/build/intermediates/cxx/Debug/50422l1l/obj/armeabi-v7a/libopencv_test4.so	a9c46c8758a5ff7
+0	1583	1639795516	CMakeFiles/native-lib.dir/native-lib.cpp.o	fe74e0b46c65d68c
+1583	1604	1639795516	/home/lsh/AndroidStudioProjects/opencv_test4/app/build/intermediates/cxx/Debug/50422l1l/obj/armeabi-v7a/libnative-lib.so	d1353c4018d4627d

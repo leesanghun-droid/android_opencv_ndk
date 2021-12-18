@@ -1,0 +1,3 @@
+/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/Debug/50422l1l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/Debug/50422l1l/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/Debug/50422l1l/armeabi-v7a/CMakeFiles/native-lib.dir

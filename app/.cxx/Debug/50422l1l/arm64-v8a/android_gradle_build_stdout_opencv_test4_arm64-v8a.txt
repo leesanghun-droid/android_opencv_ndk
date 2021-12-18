@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/Debug/50422l1l/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/opencv_test4.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library /home/lsh/AndroidStudioProjects/opencv_test4/app/build/intermediates/cxx/Debug/50422l1l/obj/arm64-v8a/libopencv_test4.so

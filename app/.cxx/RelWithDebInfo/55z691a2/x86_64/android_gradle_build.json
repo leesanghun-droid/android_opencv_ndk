@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/lsh/AndroidStudioProjects/opencv_test4/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/RelWithDebInfo/55z691a2/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/RelWithDebInfo/55z691a2/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_test4-RelWithDebInfo-x86_64": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/AndroidStudioProjects/opencv_test4/app/.cxx/RelWithDebInfo/55z691a2/x86_64",
+        "opencv_test4"
+      ],
+      "buildType": "release",
+      "abi": "x86_64",
+      "artifactName": "opencv_test4",
+      "output": "/home/lsh/AndroidStudioProjects/opencv_test4/app/build/intermediates/cxx/RelWithDebInfo/55z691a2/obj/x86_64/libopencv_test4.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
