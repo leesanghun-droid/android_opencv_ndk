@@ -41,6 +41,7 @@ url : https://github.com/opencv/opencv/releases?page=3
 
 
 --------------- opencv ndk 예제 -----------------------
+
 (1) 동영상 ndk 셋팅 참조
 
 	https://webnautes.tistory.com/1090
