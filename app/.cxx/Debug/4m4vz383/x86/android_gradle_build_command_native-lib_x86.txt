@@ -1,0 +1,7 @@
+Executable : /home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/lsh/android_opencv_ndk/app/.cxx/Debug/4m4vz383/x86
+native-lib
+jvmArgs : 
+

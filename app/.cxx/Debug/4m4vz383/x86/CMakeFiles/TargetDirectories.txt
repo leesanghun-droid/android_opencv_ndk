@@ -1,0 +1,3 @@
+/home/lsh/android_opencv_ndk/app/.cxx/Debug/4m4vz383/x86/CMakeFiles/rebuild_cache.dir
+/home/lsh/android_opencv_ndk/app/.cxx/Debug/4m4vz383/x86/CMakeFiles/edit_cache.dir
+/home/lsh/android_opencv_ndk/app/.cxx/Debug/4m4vz383/x86/CMakeFiles/native-lib.dir

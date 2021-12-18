@@ -5,7 +5,7 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
-set(pathPROJECT /home/lsh/AndroidStudioProjects/opencv_test4) # 수정필요
+set(pathPROJECT /home/lsh/android_opencv_ndk) # 수정필요
 set(pathOPENCV ${pathPROJECT}/opencv)
 set(pathLIBOPENCV_JAVA ${pathOPENCV}/native/libs/${ANDROID_ABI}/libopencv_java4.so)
 
