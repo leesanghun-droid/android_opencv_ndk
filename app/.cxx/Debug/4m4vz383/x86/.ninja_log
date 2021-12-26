@@ -1,3 +1,19 @@
 # ninja log v5
-0	1435	1639799589	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
-1436	1455	1639799589	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+0	1489	1640519309	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1490	1511	1640519309	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1489	1640519387	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1489	1509	1640519387	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1484	1640523447	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1484	1505	1640523447	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1442	1640523510	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1442	1465	1640523510	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+0	1589	1640523696	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1589	1609	1640523696	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1535	1640524034	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1535	1553	1640524034	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1509	1640524082	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1509	1529	1640524082	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+2	1458	1640524315	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1458	1476	1640524315	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0
+1	1623	1640524420	CMakeFiles/native-lib.dir/native-lib.cpp.o	9e72d885cdd1ae6
+1623	1644	1640524420	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86/libnative-lib.so	503121c8b44cbaa0

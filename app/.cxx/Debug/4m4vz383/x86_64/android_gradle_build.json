@@ -30,7 +30,8 @@
       "artifactName": "native-lib",
       "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4m4vz383/obj/x86_64/libnative-lib.so",
       "runtimeFiles": [
-        "/home/lsh/android_opencv_ndk/opencv/native/libs/x86_64/libopencv_java4.so"
+        "/home/lsh/android_opencv_ndk/opencv/native/libs/x86_64/libopencv_java4.so",
+        "/home/lsh/work123/tensorflow/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so"
       ]
     }
   },

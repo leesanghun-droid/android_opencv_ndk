@@ -17,10 +17,16 @@ import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
 import static android.Manifest.permission.CAMERA;
+
+import com.example.opencv_test4.ml.SsdMobilenetV2FaceQuantPostprocess;
 
 
 public class MainActivity extends AppCompatActivity
@@ -31,13 +37,21 @@ public class MainActivity extends AppCompatActivity
     private Mat matResult;
 
     private CameraBridgeViewBase mOpenCvCameraView;
+    private BufferedReader m_bReader;
 
-    public native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
+    public native void AI_INIT();
+    public native void AI_RUN(long matAddrInput,long matAddrResult);
+
+//    public native void ConvertRGBtoGray(long matAddrInput, long matAddrResult);
+//
+//    //~~~~~~~~~~~~~~~~~~~~ tensorflow_lite ~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//    public native void tensorflow_lite_run(long matAddrInput);
+//    public native void tensorflow_lite_init();
 
 
     static {
         System.loadLibrary("opencv_java4");
-        System.loadLibrary("native-lib");
+        System.loadLibrary("tensorflow");
     }
 
 
@@ -74,6 +88,11 @@ public class MainActivity extends AppCompatActivity
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(0); // front-camera(1),  back-camera(0)
+
+
+        AI_INIT();
+
+
     }
 
     @Override
@@ -125,7 +144,7 @@ public class MainActivity extends AppCompatActivity
 
             matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
-        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
+            AI_RUN(matInput.getNativeObjAddr(),matResult.getNativeObjAddr());
 
         return matResult;
     }

@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/6uc38u41/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/6uc38u41/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/6uc38u41/x86",
+        "native-lib"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/6uc38u41/obj/x86/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/lsh/android_opencv_ndk/opencv/native/libs/x86/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
