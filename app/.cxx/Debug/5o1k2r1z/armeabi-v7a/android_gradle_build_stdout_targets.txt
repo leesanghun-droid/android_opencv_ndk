@@ -1,0 +1,209 @@
+ninja: Entering directory `/home/lsh/android_opencv_ndk/app/.cxx/Debug/5o1k2r1z/armeabi-v7a'
+[1/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/allocated_buffer.cc.o
+[2/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/allocator.cc.o
+[3/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o
+[4/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.cc.o
+[5/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_registers.cc.o
+[6/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/aligned_allocator.cc.o
+[7/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_interrupt_manager.cc.o
+[8/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o
+[9/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o
+[10/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer.cc.o
+[11/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info.cc.o
+[12/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_chunker.cc.o
+[13/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o
+[14/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o
+[15/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/watchdog.cc.o
+[16/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o
+[17/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/grouped_interrupt_controller.cc.o
+[18/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/top_level_interrupt_manager.cc.o
+[19/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer_mapper.cc.o
+[20/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/interrupt_controller.cc.o
+[21/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_interrupt_handler.cc.o
+[22/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_coherent_allocator.cc.o
+[23/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/executable_util.cc.o
+[24/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_event_handler.cc.o
+[25/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory_default.cc.o
+[26/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_mmu_mapper.cc.o
+[27/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info_extractor.cc.o
+[28/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/instruction_buffers.cc.o
+[29/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_coherent_allocator_linux.cc.o
+[30/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_handler_linux.cc.o
+[31/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_linux.cc.o
+[32/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory.cc.o
+[33/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_registers_linux.cc.o
+[34/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:36:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:62:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  HostQueue(const config::QueueCsrOffsets& csr_offsets,
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/ptr_util.h:45:11: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::HostQueue' requested here
+      new T(std::forward<Args>(args)...));  // NOLINT(build/c++11)
+          ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:103:12: note: in instantiation of function template specialization 'platforms::darwinn::gtl::MakeUnique<platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>, const platforms::darwinn::driver::config::QueueCsrOffsets &, const platforms::darwinn::driver::config::ChipStructures &, platforms::darwinn::driver::KernelRegisters *, std::unique_ptr<platforms::darwinn::driver::KernelCoherentAllocator>, const int &, bool>' requested here
+      gtl::MakeUnique<HostQueue<HostQueueDescriptor, HostQueueStatusBlock>>(
+           ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[35/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_address_space.cc.o
+[36/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_registers.cc.o
+[37/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/dual_address_space.cc.o
+[38/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/nop_address_space.cc.o
+[39/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmu_mapper.cc.o
+[40/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_allocator.cc.o
+[41/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/coherent_allocator.cc.o
+[42/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmio_address_space.cc.o
+[43/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o
+[44/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o
+[45/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/registers/registers.cc.o
+[46/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/libusb_options_default.cc.o
+[47/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/run_controller.cc.o
+[48/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/scalar_core_controller.cc.o
+[49/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_standard_commands.cc.o
+[50/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver_shared/time_stamper/driver_time_stamper.cc.o
+[51/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_verifier.cc.o
+[52/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fPIC -Wall -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:18:
+In file included from /home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:659:
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/type_traits:1848:38: error: implicit instantiation of undefined template 'std::hash<platforms::darwinn::ExecutableType>'
+    : public integral_constant<bool, __is_empty(_Tp)> {};
+                                     ^
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:425:18: note: in instantiation of template class 'std::is_empty<std::hash<platforms::darwinn::ExecutableType>>' requested here
+          bool = is_empty<_Hash>::value && !__libcpp_is_final<_Hash>::value>
+                 ^
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:860:13: note: in instantiation of default argument for '__unordered_map_hasher<platforms::darwinn::ExecutableType, std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, std::hash<platforms::darwinn::ExecutableType>>' required here
+    typedef __unordered_map_hasher<key_type, __value_type, hasher>   __hasher;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor_internals.h:182:7: note: in instantiation of template class 'std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>' requested here
+    T data_;
+      ^
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor_internals.h:178:3: note: in instantiation of member class 'platforms::darwinn::internal_statusor::StatusOrData<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::(anonymous)' requested here
+  union {
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.h:89:26: note: in instantiation of template class 'platforms::darwinn::internal_statusor::StatusOrData<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>' requested here
+class StatusOr : private internal_statusor::StatusOrData<T>,
+                         ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:58:18: note: in instantiation of template class 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>' requested here
+PackageRegistry::GetExecutablesFromBinary(const char* executable_content,
+                 ^
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/type_traits:428:50: note: template is declared here
+template <class _Tp> struct _LIBCPP_TEMPLATE_VIS hash;
+                                                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.h:26:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/statusor.h:42:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/default/statusor.h:18:
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.h:281:42: error: type 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::Base' (aka 'StatusOrData<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>') is not a direct or virtual base of 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>'
+StatusOr<T>::StatusOr(Status&& status) : Base(std::move(status)) {}
+                                         ^~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:73:12: note: in instantiation of member function 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::StatusOr' requested here
+    return InternalError("Package verification failed.");
+           ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:21:
+In file included from /home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:409:
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__hash_table:2105:21: error: called object type 'std::__hash_table<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, int, std::__unordered_map_equal<platforms::darwinn::ExecutableType, std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, std::equal_to<platforms::darwinn::ExecutableType>, true>, std::allocator<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>>::hasher' (aka 'int') is not a function or function pointer
+    size_t __hash = hash_function()(__k);
+                    ^~~~~~~~~~~~~~~
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:1642:21: note: in instantiation of function template specialization 'std::__hash_table<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, int, std::__unordered_map_equal<platforms::darwinn::ExecutableType, std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, std::equal_to<platforms::darwinn::ExecutableType>, true>, std::allocator<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>>::__emplace_unique_key_args<platforms::darwinn::ExecutableType, const std::piecewise_construct_t &, std::tuple<platforms::darwinn::ExecutableType &&>, std::tuple<>>' requested here
+    return __table_.__emplace_unique_key_args(__k,
+                    ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:133:25: note: in instantiation of member function 'std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>::operator[]' requested here
+      return executables[ExecutableType_EXECUTION_ONLY];
+                        ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.h:26:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/statusor.h:42:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/default/statusor.h:18:
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.h:269:47: error: type 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::Base' (aka 'StatusOrData<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>') is not a direct or virtual base of 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>'
+StatusOr<T>::StatusOr(const Status& status) : Base(status) {}
+                                              ^~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:212:5: note: in instantiation of member function 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::StatusOr' requested here
+    ASSIGN_OR_RETURN(auto executable,
+    ^
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/status_macros.h:205:34: note: expanded from macro 'ASSIGN_OR_RETURN'
+                                 ASSIGN_OR_RETURN_IMPL_2)              \
+                                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:21:
+In file included from /home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:409:
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__hash_table:2458:21: error: called object type 'std::__hash_table<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, int, std::__unordered_map_equal<platforms::darwinn::ExecutableType, std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, std::equal_to<platforms::darwinn::ExecutableType>, true>, std::allocator<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>>::hasher' (aka 'int') is not a function or function pointer
+    size_t __hash = hash_function()(__k);
+                    ^~~~~~~~~~~~~~~
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map:1278:69: note: in instantiation of function template specialization 'std::__hash_table<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, int, std::__unordered_map_equal<platforms::darwinn::ExecutableType, std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>, std::equal_to<platforms::darwinn::ExecutableType>, true>, std::allocator<std::__hash_value_type<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>>::find<platforms::darwinn::ExecutableType>' requested here
+    iterator       find(const key_type& __k)       {return __table_.find(__k);}
+                                                                    ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:216:21: note: in instantiation of member function 'std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>::find' requested here
+    if (executables.find(executable->type()) != executables.end()) {
+                    ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.h:26:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/statusor.h:42:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/port/default/statusor.h:18:
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.h:278:36: error: type 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::Base' (aka 'StatusOrData<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>') is not a direct or virtual base of 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>'
+StatusOr<T>::StatusOr(T&& value) : Base(std::move(value)) {}
+                                   ^~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc:257:10: note: in instantiation of member function 'platforms::darwinn::StatusOr<std::unordered_map<platforms::darwinn::ExecutableType, const platforms::darwinn::Executable *>>::StatusOr' requested here
+  return executables;
+         ^
+6 errors generated.
+[53/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_io_request.cc.o
+[54/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_commands.cc.o
+[55/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/blocking_counter.cc.o
+[56/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/logging.cc.o
+[57/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_ml_commands.cc.o
+[58/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_util.cc.o
+[59/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/real_time_dma_scheduler.cc.o
+[60/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o
+[61/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_queue_dma_scheduler.cc.o
+[62/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/request.cc.o
+[63/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_tpu_request.cc.o
+[64/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc.o
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:311:39: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  RETURN_IF_ERROR(instruction_queue_->Open(address_space_.get()));
+                                      ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[65/213] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_driver.cc.o
+ninja: build stopped: subcommand failed.

@@ -1,4 +1,5 @@
 #include <jni.h>
+#include "edgetpu_c.h"
 #include "tensorflow/lite/c/c_api.h"
 #include <opencv2/opencv.hpp>
 #include <android/log.h>
@@ -32,9 +33,16 @@ Java_com_example_opencv_1test4_MainActivity_AI_1INIT(JNIEnv *env, jobject thiz) 
         }
 
     TfLiteInterpreterOptions* options = TfLiteInterpreterOptionsCreate();
-    TfLiteInterpreterOptionsSetNumThreads(options, 2);
 // Create the interpreter.
     interpreter = TfLiteInterpreterCreate(model, options);
+
+
+    size_t num_devices;
+    std::unique_ptr<edgetpu_device, decltype(&edgetpu_free_devices)> devices(edgetpu_list_devices(&num_devices), &edgetpu_free_devices);
+    const auto &device = devices.get()[0];
+    TfLiteDelegate* delegate_ = edgetpu_create_delegate(device.type, device.path, nullptr, 0);
+    TfLiteInterpreterOptionsAddDelegate(options, delegate_);
+
     TfLiteInterpreterAllocateTensors(interpreter);
 
 

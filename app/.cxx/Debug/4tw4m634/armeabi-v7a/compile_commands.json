@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lsh/android_opencv_ndk/app/.cxx/Debug/4tw4m634/armeabi-v7a",
+  "command": "/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/work123/tensorflow -I/home/lsh/work123/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/work123/tensorflow/tensorflow/lite/tools/make/downloads/absl -I/home/lsh/edgetpu/libedgetpu  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14  -llog -llog -fno-limit-debug-info  -fPIC   -o CMakeFiles/tensorflow.dir/tensorflow.cpp.o -c /home/lsh/android_opencv_ndk/app/src/main/cpp/tensorflow.cpp",
+  "file": "/home/lsh/android_opencv_ndk/app/src/main/cpp/tensorflow.cpp"
+}
+]

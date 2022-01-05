@@ -1,0 +1,8 @@
+Executable : /home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/lsh/android_opencv_ndk/app/.cxx/Debug/6s65y3c2/armeabi-v7a
+edgetpu
+tensorflow
+jvmArgs : 
+

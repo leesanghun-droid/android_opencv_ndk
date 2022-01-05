@@ -1,0 +1,330 @@
+ninja: Entering directory `/home/lsh/android_opencv_ndk/app/.cxx/Debug/6s65y3c2/armeabi-v7a'
+[1/215] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[2/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[3/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/allocated_buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[4/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.h:20:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+1 error generated.
+[5/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_handler.h:18:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+1 error generated.
+[6/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/aligned_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[7/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[8/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[9/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+8 errors generated.
+[10/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.h:18:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver.h:25:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/package_reference.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc:17:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+9 errors generated.
+[11/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+8 errors generated.
+[12/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.h:19:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver.h:25:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/package_reference.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.h:20:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory.h:26:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_factory.h:25:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+9 errors generated.
+[13/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_interrupt_manager.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[14/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/watchdog.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[15/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.h:19:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver.h:25:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/package_reference.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.h:20:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory.h:26:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver_factory.h:25:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:36:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:62:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  HostQueue(const config::QueueCsrOffsets& csr_offsets,
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/ptr_util.h:45:11: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::HostQueue' requested here
+      new T(std::forward<Args>(args)...));  // NOLINT(build/c++11)
+          ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:103:12: note: in instantiation of function template specialization 'platforms::darwinn::gtl::MakeUnique<platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>, const platforms::darwinn::driver::config::QueueCsrOffsets &, const platforms::darwinn::driver::config::ChipStructures &, platforms::darwinn::driver::KernelRegisters *, std::unique_ptr<platforms::darwinn::driver::KernelCoherentAllocator>, const int &, bool>' requested here
+      gtl::MakeUnique<HostQueue<HostQueueDescriptor, HostQueueStatusBlock>>(
+           ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings and 9 errors generated.
+[16/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc:28:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver.h:25:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/package_reference.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc:29:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+9 errors generated.
+[17/215] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o
+FAILED: CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o 
+/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dedgetpu_EXPORTS -I/home/lsh/android_opencv_ndk/opencv/native/jni/include -I/home/lsh/edgetpu/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu -I/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu -I/home/lsh/work1234/docker_home/home/tensorflow -I/home/lsh/work1234/docker_home/home/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include -I/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp -I/home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o -MF CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o.d -o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o -c /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:28:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/driver.h:25:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/package_reference.h:24:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.h:21:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.h:22:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:129:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Description_BASE_ADDRESS_OUTPUT_ACTIVATION, Description_BASE_ADDRESS_SCRATCH)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:159:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Position_LOWER_32BIT, Position_UPPER_32BIT)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:195:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, InterruptType_SCALAR_CORE_INT_0, InterruptType_SCALAR_CORE_INT_3)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:225:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, Direction_INFEED, Direction_OUTFEED)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:264:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyHint_NONE, AnyHint_FenceHint)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:403:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, DataType_FIXED_POINT8, DataType_SIGNED_FIXED_POINT16)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:436:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, AnyLayer_NONE, AnyLayer_InputLayer)) return "";
+      ~~~~~~~~~~~~~^
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/executable/executable_generated.h:534:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, ExecutableType_STAND_ALONE, ExecutableType_EXECUTION_ONLY)) return "";
+      ~~~~~~~~~~~~~^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:35:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.h:26:
+/home/lsh/work1234/docker_home/home/libedgetpu/out/home/libedgetpu/api/driver_options_generated.h:52:20: error: no member named 'IsOutRange' in namespace 'flatbuffers'
+  if (flatbuffers::IsOutRange(e, PerformanceExpectation_Low, PerformanceExpectation_Max)) return "";
+      ~~~~~~~~~~~~~^
+9 errors generated.
+ninja: build stopped: subcommand failed.

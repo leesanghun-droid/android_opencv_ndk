@@ -1,0 +1,3 @@
+# ninja log v5
+0	1253	1640921340	CMakeFiles/tensorflow.dir/tensorflow.cpp.o	ce447ec398149181
+1253	1293	1640921340	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/2q5z1g3g/obj/armeabi-v7a/libtensorflow.so	c016dce1ff2c866e

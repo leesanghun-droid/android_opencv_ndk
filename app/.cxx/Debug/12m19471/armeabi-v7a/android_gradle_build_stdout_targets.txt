@@ -1,0 +1,459 @@
+ninja: Entering directory `/home/lsh/android_opencv_ndk/app/.cxx/Debug/12m19471/armeabi-v7a'
+[1/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/allocated_buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[2/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_chunker.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[3/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[4/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/aligned_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[5/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[6/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[7/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[8/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/grouped_interrupt_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[9/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[10/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[11/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[12/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/interrupt_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[13/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/top_level_interrupt_manager.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[14/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/watchdog.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[15/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory_default.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[16/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/executable_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[17/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[18/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_interrupt_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[19/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info_extractor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[20/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_mmu_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[21/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_coherent_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[22/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_event_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[23/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/instruction_buffers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[24/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_coherent_allocator_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[25/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_handler_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[26/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[27/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[28/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_registers_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[29/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[30/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/dual_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[31/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/nop_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[32/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmu_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[33/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[34/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmio_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[35/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/coherent_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[36/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[37/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/registers/registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[38/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[39/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/run_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[40/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/libusb_options_default.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[41/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/scalar_core_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[42/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_standard_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[43/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_verifier.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[44/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver_shared/time_stamper/driver_time_stamper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[45/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/real_time_dma_scheduler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[46/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_io_request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[47/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[48/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[49/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[50/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[51/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/logging.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[52/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_ml_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[53/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_queue_dma_scheduler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[54/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/blocking_counter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[55/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/status.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[56/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[57/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/stringprintf.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[58/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[59/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_tpu_request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[60/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/shared_mutex.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[61/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[62/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/timer_portable.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[63/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[64/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[65/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_c.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[66/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[67/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[68/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op_tflite_plugin.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[69/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[70/208] Linking CXX static library abseil-cpp/absl/base/libabsl_spinlock_wait.a
+[71/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[72/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[73/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[74/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[75/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_data.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[76/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[77/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[78/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[79/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[80/208] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[81/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:311:39: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  RETURN_IF_ERROR(instruction_queue_->Open(address_space_.get()));
+                                      ^
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[82/208] Linking CXX static library abseil-cpp/absl/base/libabsl_log_severity.a
+[83/208] Linking CXX static library abseil-cpp/absl/base/libabsl_raw_logging_internal.a
+[84/208] Linking CXX static library abseil-cpp/absl/base/libabsl_throw_delegate.a
+[85/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[86/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[87/208] Linking CXX static library abseil-cpp/absl/base/libabsl_base.a
+[88/208] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_commandlineflag_internal.a
+[89/208] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[90/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[91/208] Linking CXX static library abseil-cpp/absl/base/libabsl_malloc_internal.a
+[92/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[93/208] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[94/208] Linking CXX static library abseil-cpp/absl/debugging/libabsl_demangle_internal.a
+[95/208] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[96/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[97/208] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[98/208] Linking CXX static library abseil-cpp/absl/debugging/libabsl_debugging_internal.a
+[99/208] Building CXX object CMakeFiles/tensorflow.dir/tensorflow.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[100/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_user_data_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[101/208] Linking CXX static library abseil-cpp/absl/debugging/libabsl_stacktrace.a
+[102/208] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/internal/low_level_hash.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[103/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[104/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[105/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[106/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[107/208] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[108/208] Linking CXX static library abseil-cpp/absl/hash/libabsl_city.a
+[109/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[110/208] Building CXX object abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[111/208] Linking CXX static library abseil-cpp/absl/profiling/libabsl_exponential_biased.a
+[112/208] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[113/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[114/208] Building CXX object abseil-cpp/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[115/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[116/208] Linking CXX static library abseil-cpp/absl/numeric/libabsl_int128.a
+[117/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[118/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[119/208] Linking CXX static library abseil-cpp/absl/hash/libabsl_low_level_hash.a
+[120/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/marshalling.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[121/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[122/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[123/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[124/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[125/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[126/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[127/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[128/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[129/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[130/208] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/reflection.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[131/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[132/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[133/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/string_view.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[134/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_concat.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[135/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[136/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[137/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[138/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[139/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[140/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[141/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[142/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[143/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[144/208] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[145/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[146/208] Linking CXX static library abseil-cpp/absl/strings/libabsl_strings_internal.a
+[147/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_ring.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[148/208] Linking CXX static library abseil-cpp/absl/strings/libabsl_strings.a
+[149/208] Linking CXX static library abseil-cpp/absl/debugging/libabsl_symbolize.a
+[150/208] Linking CXX static library abseil-cpp/absl/strings/libabsl_cord_internal.a
+[151/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[152/208] Linking CXX shared library /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/12m19471/obj/armeabi-v7a/libedgetpu.so
+FAILED: /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/12m19471/obj/armeabi-v7a/libedgetpu.so 
+: && /home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -DARWINN_PORT_ANDROID_SYSTEM -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libedgetpu.so -o /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/12m19471/obj/armeabi-v7a/libedgetpu.so CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/allocated_buffer.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/driver_options_helper.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/layer_information.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/tensor_util.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/watchdog.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/aligned_allocator.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/allocator.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/device_buffer_mapper.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_chunker.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/dma_info_extractor.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver_factory_default.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/executable_util.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/instruction_buffers.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/grouped_interrupt_controller.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/interrupt_controller.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/interrupt/top_level_interrupt_manager.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_coherent_allocator.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_event_handler.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_interrupt_handler.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_mmu_mapper.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/kernel_registers.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_coherent_allocator_linux.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_handler_linux.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_event_linux.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/kernel/linux/kernel_registers_linux.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_address_space.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/buddy_allocator.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/dual_address_space.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmio_address_space.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/mmu_mapper.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/memory/nop_address_space.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio/coherent_allocator.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/mmio_driver.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_registry.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/package_verifier.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/real_time_dma_scheduler.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/registers/registers.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/request.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/run_controller.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/scalar_core_controller.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_queue_dma_scheduler.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/single_tpu_request.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/libusb_options_default.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_commands.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_dfu_util.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_driver.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_io_request.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_ml_commands.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_registers.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_standard_commands.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver_shared/time_stamper/driver_time_stamper.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/blocking_counter.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/logging.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/status.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/port_from_tf/statusor.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/default/stringprintf.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/shared_mutex.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/port/timer_portable.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_data.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_direct.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/custom_op_user_data_direct.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_c.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op.cc.o CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op_tflite_plugin.cc.o  -latomic -lm && :
+ld: error: undefined symbol: absl::str_format_internal::FormatPack(absl::str_format_internal::UntypedFormatSpecImpl, absl::Span<absl::str_format_internal::FormatArgImpl const>)
+>>> referenced by str_format.h:340 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/str_format.h:340)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > absl::StrFormat<char const*, unsigned long long, unsigned int>(absl::str_format_internal::FormatSpecTemplate<str_format_internal::ArgumentToConv<char const*>(), str_format_internal::ArgumentToConv<unsigned long long>(), str_format_internal::ArgumentToConv<unsigned int>()> const&, char const* const&, unsigned long long const&, unsigned int const&))
+>>> referenced by str_format.h:340 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/str_format.h:340)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > absl::StrFormat<long long, long long>(absl::str_format_internal::FormatSpecTemplate<str_format_internal::ArgumentToConv<long long>(), str_format_internal::ArgumentToConv<long long>()> const&, long long const&, long long const&))
+>>> referenced by str_format.h:340 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/str_format.h:340)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > absl::StrFormat<long long>(absl::str_format_internal::FormatSpecTemplate<str_format_internal::ArgumentToConv<long long>()> const&, long long const&))
+>>> referenced 4 more times
+
+ld: error: undefined symbol: bool absl::str_format_internal::FormatArgImpl::Dispatch<char const*>(absl::str_format_internal::FormatArgImpl::Data, absl::str_format_internal::FormatConversionSpecImpl, void*)
+>>> referenced by arg.h:0 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/internal/str_format/arg.h:0)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(void absl::str_format_internal::FormatArgImpl::Init<char const*>(char const* const&))
+
+ld: error: undefined symbol: bool absl::str_format_internal::FormatArgImpl::Dispatch<unsigned long long>(absl::str_format_internal::FormatArgImpl::Data, absl::str_format_internal::FormatConversionSpecImpl, void*)
+>>> referenced by arg.h:0 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/internal/str_format/arg.h:0)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(void absl::str_format_internal::FormatArgImpl::Init<unsigned long long>(unsigned long long const&))
+
+ld: error: undefined symbol: bool absl::str_format_internal::FormatArgImpl::Dispatch<unsigned int>(absl::str_format_internal::FormatArgImpl::Data, absl::str_format_internal::FormatConversionSpecImpl, void*)
+>>> referenced by arg.h:0 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/internal/str_format/arg.h:0)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(void absl::str_format_internal::FormatArgImpl::Init<unsigned int>(unsigned int const&))
+
+ld: error: undefined symbol: bool absl::str_format_internal::FormatArgImpl::Dispatch<long long>(absl::str_format_internal::FormatArgImpl::Data, absl::str_format_internal::FormatConversionSpecImpl, void*)
+>>> referenced by arg.h:0 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/internal/str_format/arg.h:0)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(void absl::str_format_internal::FormatArgImpl::Init<long long>(long long const&))
+
+ld: error: undefined symbol: bool absl::str_format_internal::FormatArgImpl::Dispatch<int>(absl::str_format_internal::FormatArgImpl::Data, absl::str_format_internal::FormatConversionSpecImpl, void*)
+>>> referenced by arg.h:0 (/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/internal/str_format/arg.h:0)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/driver.cc.o:(void absl::str_format_internal::FormatArgImpl::Init<int>(int const&))
+
+ld: error: undefined symbol: libusb_cancel_transfer
+>>> referenced by local_usb_device.cc:219 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:219)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::DoCancelAllTransfers())
+>>> referenced by local_usb_device.cc:219 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:219)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::DoCancelAllTransfers())
+
+ld: error: undefined symbol: libusb_reset_device
+>>> referenced by local_usb_device.cc:254 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:254)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:254 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:254)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:290 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:290)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: libusb_release_interface
+>>> referenced by local_usb_device.cc:265 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:265)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:265 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:265)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:381 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:381)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::ReleaseInterface(int)::$_3::operator()() const)
+
+ld: error: undefined symbol: libusb_get_device
+>>> referenced by local_usb_device.cc:304 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:304)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:426 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:426)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::GetDeviceSpeed() const)
+
+ld: error: undefined symbol: libusb_get_bus_number
+>>> referenced by local_usb_device.cc:305 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:305)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:152 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:152)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::(anonymous namespace)::FindDeviceByBusAndPortWithRetries(libusb_context*, int, int))
+>>> referenced by local_usb_device.cc:978 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:978)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::EnumerateDevices(unsigned short, unsigned short))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: libusb_get_port_number
+>>> referenced by local_usb_device.cc:306 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:306)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:153 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:153)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::(anonymous namespace)::FindDeviceByBusAndPortWithRetries(libusb_context*, int, int))
+>>> referenced by local_usb_device.cc:980 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:980)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::EnumerateDevices(unsigned short, unsigned short))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: libusb_close
+>>> referenced by local_usb_device.cc:310 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:310)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+
+ld: error: undefined symbol: libusb_exit
+>>> referenced by local_usb_device.cc:319 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:319)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::Close(platforms::darwinn::driver::UsbDeviceInterface::CloseAction))
+>>> referenced by local_usb_device.cc:957 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:957)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::EnumerateDevices(unsigned short, unsigned short)::$_8::operator()() const)
+>>> referenced by local_usb_device.cc:1029 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:1029)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::OpenDevice(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, int)::$_10::operator()() const)
+
+ld: error: undefined symbol: libusb_get_device_list
+>>> referenced by local_usb_device.cc:145 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:145)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::(anonymous namespace)::FindDeviceByBusAndPortWithRetries(libusb_context*, int, int))
+>>> referenced by local_usb_device.cc:961 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:961)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::EnumerateDevices(unsigned short, unsigned short))
+>>> referenced by local_usb_device.cc:1034 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:1034)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDeviceFactory::OpenDevice(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, int))
+
+ld: error: undefined symbol: libusb_get_device_speed
+>>> referenced by local_usb_device.cc:426 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:426)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::GetDeviceSpeed() const)
+
+ld: error: undefined symbol: libusb_bulk_transfer
+>>> referenced by local_usb_device.cc:558 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:558)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::BulkOutTransfer(unsigned char, platforms::darwinn::gtl::ArraySlice<unsigned char>, int, char const*))
+>>> referenced by local_usb_device.cc:591 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:591)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::BulkInTransfer(unsigned char, platforms::darwinn::gtl::MutableArraySlice<unsigned char>, unsigned int*, int, char const*))
+
+ld: error: undefined symbol: libusb_interrupt_transfer
+>>> referenced by local_usb_device.cc:623 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:623)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::InterruptInTransfer(unsigned char, platforms::darwinn::gtl::MutableArraySlice<unsigned char>, unsigned int*, int, char const*))
+
+ld: error: undefined symbol: libusb_alloc_transfer
+>>> referenced by local_usb_device.cc:687 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:687)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::NewAsyncTransfer())
+
+ld: error: undefined symbol: libusb_free_transfer
+>>> referenced by local_usb_device.cc:700 (/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc:700)
+>>>               CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/local_usb_device.cc.o:(platforms::darwinn::driver::LocalUsbDevice::DestroyFailedAsyncTransfer(libusb_transfer*))
+
+ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[153/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[154/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[155/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[156/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[157/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[158/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[159/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[160/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[161/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[162/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[163/208] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[164/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[165/208] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+ninja: build stopped: subcommand failed.

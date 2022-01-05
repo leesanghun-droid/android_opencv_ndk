@@ -1,0 +1,9 @@
+# ninja log v5
+0	2	0	clean	a2b4515aa95f07fc
+0	2231	1640844986	CMakeFiles/tensorflow.dir/tensorflow.cpp.o	9869cdd44f23b8c0
+2232	2266	1640844986	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4n4l1j5w/obj/armeabi-v7a/libtensorflow.so	fc7c3029e0319171
+1	33	1640845238	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4n4l1j5w/obj/armeabi-v7a/libtensorflow.so	1bc4a05a6048477c
+1	1592	1640845279	CMakeFiles/tensorflow.dir/tensorflow.cpp.o	4844809117cf7db8
+1592	1619	1640845279	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4n4l1j5w/obj/armeabi-v7a/libtensorflow.so	de00dcaf47412c7
+2	1592	1640845312	CMakeFiles/tensorflow.dir/tensorflow.cpp.o	652b47674bd2b01d
+1592	1620	1640845312	/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/4n4l1j5w/obj/armeabi-v7a/libtensorflow.so	44fe16c72ee5aa7f

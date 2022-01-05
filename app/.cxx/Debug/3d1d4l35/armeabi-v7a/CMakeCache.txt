@@ -204,8 +204,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=26
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/lsh/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/lsh/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -223,7 +223,7 @@ Project_SOURCE_DIR:STATIC=/home/lsh/android_opencv_ndk/app/src/main/cpp
 log-lib:FILEPATH=/home/lsh/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libz.a
 
 //Dependencies for the target
-tensorflow_LIB_DEPENDS:STATIC=general;lib_opencv;general;/home/lsh/work123/tensorflow//bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so;general;/home/lsh/edgetpu/libedgetpu/throttled/armv7a/libedgetpu.so.1;general;/home/lsh/edgetpu/libedgetpu/throttled/armv7a/libedgetpu.so.1.0;general;/home/lsh/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libz.a;
+tensorflow_LIB_DEPENDS:STATIC=general;lib_opencv;general;/home/lsh/work123/tensorflow//bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so;general;/home/lsh/libedgetpu/out/direct/armv7a/libedgetpu.so;general;/home/lsh/Desktop/libusb-1.0.24/install/lib/libusb-1.0.so;general;/home/lsh/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libz.a;
 
 
 ########################

@@ -1,0 +1,9 @@
+# ninja log v5
+1	666	1641392442	abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o	d64ef26b7fe550bc
+1	743	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/buffer.cc.o	cd497f89e607e0d2
+1	808	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/allocated_buffer.cc.o	2bd33945ef1531a9
+4	913	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/aligned_allocator.cc.o	83381797b5a37668
+2	919	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/usb/usb_registers.cc.o	d6988d7abe437907
+4	936	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/allocator.cc.o	b80c8a0ae2ff25ba
+667	1408	1641392443	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/driver/beagle/beagle_top_level_interrupt_manager.cc.o	332e43198848d484
+2	1689	1641392444	CMakeFiles/edgetpu.dir/home/lsh/work1234/docker_home/home/libedgetpu/api/watchdog.cc.o	dfe7a0c81cea5abe

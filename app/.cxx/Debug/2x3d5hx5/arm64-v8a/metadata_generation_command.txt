@@ -1,0 +1,24 @@
+                    Executable : /home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/lsh/android_opencv_ndk/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/home/lsh/Android/Sdk/ndk/16.1.4479499
+-DCMAKE_ANDROID_NDK=/home/lsh/Android/Sdk/ndk/16.1.4479499
+-DCMAKE_TOOLCHAIN_FILE=/home/lsh/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11  -llog 
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/2x3d5hx5/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/2x3d5hx5/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/lsh/android_opencv_ndk/app/.cxx/Debug/2x3d5hx5/arm64-v8a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

@@ -1,0 +1,15 @@
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/lsh/android_opencv_ndk/app/.cxx/Debug/3l496z5b/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_dc9d4"
+[1/2] Building CXX object CMakeFiles/cmTC_dc9d4.dir/testCXXCompiler.cxx.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+clang++: warning: -lpthread: 'linker' input unused [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_dc9d4
+FAILED: cmTC_dc9d4 
+: && /home/lsh/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11  -llog -lpthread  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections CMakeFiles/cmTC_dc9d4.dir/testCXXCompiler.cxx.o  -o cmTC_dc9d4  -latomic -lm && :
+/home/lsh/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lpthread
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
