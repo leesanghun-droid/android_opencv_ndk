@@ -562,7 +562,7 @@ absl_time_LIB_DEPENDS:STATIC=general;absl::base;general;absl::civil_time;general
 absl_time_zone_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-edgetpu_LIB_DEPENDS:STATIC=general;absl::flags_internal;general;absl::strings_internal;general;absl::flags_reflection;general;absl::flags_marshalling;general;absl::hash;general;absl::hashtablez_sampler;general;absl::raw_hash_set;general;absl::log_severity;general;absl::str_format_internal;general;absl::strings;general;absl::synchronization;general;/home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so;general;/home/lsh/work1234/docker_home/home/tensorflow/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so;
+edgetpu_LIB_DEPENDS:STATIC=general;absl::flags_internal;general;absl::strings_internal;general;absl::flags_reflection;general;absl::flags_marshalling;general;absl::hash;general;absl::hashtablez_sampler;general;absl::raw_hash_set;general;absl::log_severity;general;absl::str_format_internal;general;absl::strings;general;absl::synchronization;general;/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so;general;/home/lsh/work1234/docker_home/home/tensorflow/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so;
 
 //Path to a library.
 log-lib:FILEPATH=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/libz.so

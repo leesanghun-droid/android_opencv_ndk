@@ -21,13 +21,12 @@ set(BUILDDIR ${BUILDROOT}/out/home/libedgetpu/)
 set(TFROOT /home/lsh/work1234/docker_home/home/tensorflow)
 set(FLATBUFFERS ${TFROOT}/tensorflow/lite/tools/make/downloads/flatbuffers/include/)
 set(ABLS /home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/)
-set(USB /home/lsh/work1234/docker_home/home/libusb-1.0.24/install/include/)
+set(USB /home/lsh/libusb-1.0.24)
 
 
 
 include_directories(
         ${pathOPENCV}/native/jni/include
-
         ${EDGETPUDIR}
         ${BUILDROOT}
         ${BUILDDIR}
@@ -37,47 +36,9 @@ include_directories(
         ${USB}
         )
 
-find_library( # Sets the name of the path variable.
-        log-lib
+find_library(log-lib z log )
 
-        # Specifies the name of the NDK library that
-        # you want CMake to locate.
-        z
-        log )
-
-
-# Creates and names a library, sets it as either STATIC
-# or SHARED, and provides the relative paths to its source code.
-# You can define multiple libraries, and CMake builds them for you.
-# Gradle automatically packages shared libraries with your APK.
-
-#add_library( # Sets the name of the library.
-#        native-lib
-#
-#        # Sets the library as a shared library.
-#        SHARED
-#
-#        # Provides a relative path to your source file(s).
-#        ${pathPROJECT}/app/src/main/cpp/native-lib.cpp )
-
-add_library( # Sets the name of the library.
-                tensorflow
-
-                # Sets the library as a shared library.
-                SHARED
-
-                # Provides a relative path to your source file(s).
-                ${pathPROJECT}/app/src/main/cpp/tensorflow.cpp)
-
-#add_library( # Sets the name of the library.
-#        tensorflow_face
-#
-#        # Sets the library as a shared library.
-#        SHARED
-#
-#        # Provides a relative path to your source file(s).
-#        ${pathPROJECT}/app/src/main/cpp/tensorflow_face.cpp )
-
+add_library(    tensorflow SHARED ${pathPROJECT}/app/src/main/cpp/tensorflow.cpp)
 
 add_library( lib_opencv SHARED IMPORTED )
 
@@ -165,42 +126,6 @@ add_library(edgetpu SHARED
         )
 
 set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${pathLIBOPENCV_JAVA})
-
-
-# Searches for a specified prebuilt library and stores the path as a
-# variable. Because CMake includes system libraries in the search path by
-# default, you only need to specify the name of the public NDK library
-# you want to add. CMake verifies that the library exists before
-# completing its build.
-
-
-
-# Specifies libraries CMake should link to your target library. You
-# can link multiple libraries, such as libraries you define in this
-# build script, prebuilt third-party libraries, or system libraries.
-
-#target_link_libraries( # Specifies the target library.
-#        tensorflow_face
-#        ${pathTensorflow}/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so
-#        ${log-lib}
-#        )
-#
-#target_link_libraries( # Specifies the target library.
-#        tensorflow
-#        tensorflow_face
-#        )
-
-#target_link_libraries( # Specifies the target library.
-#        rk
-#        #/home/lsh/libedgetpu/out/direct/aarch64/libc.so
-#        #/home/lsh/libedgetpu/out/direct/aarch64/ld-linux.so.3
-#        #/home/lsh/libedgetpu/out/direct/aarch64/libld-linux.so
-#        #/home/lsh/libedgetpu/out/direct/aarch64/libpthread.so
-#        #/home/lsh/libedgetpu/out/direct/armv7a/libedgetpu.so.1
-#        #/home/lsh/libedgetpu/out/direct/armv7a/libusb-1.0.so.0
-#        ${log-lib}
-#        )
-
 add_subdirectory(abseil-cpp)
 
 target_link_libraries(
@@ -217,7 +142,7 @@ target_link_libraries(
         absl::str_format
         absl::strings
         absl::synchronization
-        /home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so
+        ${pathPROJECT}/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so
         ${TFROOT}/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so
 )
 

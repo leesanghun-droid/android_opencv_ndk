@@ -24,7 +24,7 @@ Java_com_example_opencv_1test4_MainActivity_AI_1INIT(JNIEnv *env, jobject thiz) 
 
     __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "%s",pstrBuffer);
 
-    TfLiteModel* model = TfLiteModelCreateFromFile("/data/tflite/ssd_mobilenet_v2_face_quant_postprocess.tflite");
+    TfLiteModel* model = TfLiteModelCreateFromFile("data/tflite/test2.tflite");
         if (model == nullptr) {
             __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "model nullptr");
         }else
@@ -39,11 +39,25 @@ Java_com_example_opencv_1test4_MainActivity_AI_1INIT(JNIEnv *env, jobject thiz) 
 
     size_t num_devices;
     std::unique_ptr<edgetpu_device, decltype(&edgetpu_free_devices)> devices(edgetpu_list_devices(&num_devices), &edgetpu_free_devices);
-    const auto &device = devices.get()[0];
-    TfLiteDelegate* delegate_ = edgetpu_create_delegate(device.type, device.path, nullptr, 0);
-    TfLiteInterpreterOptionsAddDelegate(options, delegate_);
 
+    if (num_devices == 0) {
+        __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "zero_tpu\r\n");
+    }else
+    {
+        __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "tpu_num : %d\r\n",num_devices);
+    }
+
+
+    const auto &device = devices.get()[0];
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "const auto &device = devices.get()[0];\r\n");
+
+    TfLiteDelegate* delegate_ = edgetpu_create_delegate(device.type, device.path, nullptr, 0);
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteDelegate* delegate_ = edgetpu_create_delegate\r\n");
+    TfLiteInterpreterOptionsAddDelegate(options, delegate_);
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteInterpreterOptionsAddDelegate(options, delegate_);\r\n");
     TfLiteInterpreterAllocateTensors(interpreter);
+
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteInterpreterAllocateTensors\r\n");
 
 
 }
@@ -73,9 +87,17 @@ Java_com_example_opencv_1test4_MainActivity_AI_1RUN(JNIEnv *env, jobject thiz, j
 
     TfLiteTensor* input_tensor =
             TfLiteInterpreterGetInputTensor(interpreter, 0);
+
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteInterpreterGetInputTensor(interpreter, 0);\r\n");
+
     TfLiteTensorCopyFromBuffer(input_tensor, face_image,
                                320*320*3);
+
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteTensorCopyFromBuffer\r\n");
+
     TfLiteInterpreterInvoke(interpreter);
+
+    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "TfLiteInterpreterInvoke(interpreter);\r\n");
 
     float num[100];
 
