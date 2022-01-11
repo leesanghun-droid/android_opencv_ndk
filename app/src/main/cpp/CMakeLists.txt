@@ -3,6 +3,8 @@
 
 # Sets the minimum version of CMake required to build the native library.
 
+# library address /home/lsh/android_opencv_ndk/app/build/intermediates/cmake/debug/obj/armeabi-v7a/
+
 cmake_minimum_required(VERSION 3.4.1)
 
 #define __ANDROID__
@@ -15,12 +17,15 @@ set(CMAKE_VERBOSE_MAKEFILE on)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 
 
-set(EDGETPUDIR /home/lsh/edgetpu/libedgetpu/)
-set(BUILDROOT /home/lsh/work1234/docker_home/home/libedgetpu/) # 수정필요
+#set(EDGETPUDIR /home/lsh/work1234/home/libedgetpu/tflite/public)
+set(EDGETPUDIR /home/lsh/edgetpu/libedgetpu)
+
+set(BUILDROOT /home/lsh/work1234/home/libedgetpu/)
 set(BUILDDIR ${BUILDROOT}/out/home/libedgetpu/)
-set(TFROOT /home/lsh/work1234/docker_home/home/tensorflow)
-set(FLATBUFFERS ${TFROOT}/tensorflow/lite/tools/make/downloads/flatbuffers/include/)
-set(ABLS /home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/)
+set(TFROOT /home/lsh/work1234/home/tensorflow)
+set(FLATBUFFERS ${pathPROJECT}/app/src/main/cpp/flatbuffers/include/)
+set(FLATBUFFERS_SRC ${pathPROJECT}/app/src/main/cpp/flatbuffers/)
+set(ABLS ${pathPROJECT}/app/src/main/cpp/abseil-cpp/)
 set(USB /home/lsh/libusb-1.0.24)
 
 
@@ -42,17 +47,52 @@ add_library(    tensorflow SHARED ${pathPROJECT}/app/src/main/cpp/tensorflow.cpp
 
 add_library( lib_opencv SHARED IMPORTED )
 
+add_library (flatc_lib
+        ${FLATBUFFERS_SRC}/include/flatbuffers/allocator.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/array.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/base.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/bfbs_generator.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/buffer.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/buffer_ref.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/default_allocator.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/detached_buffer.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/flatbuffer_builder.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/flatbuffers.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/flexbuffers.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/hash.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/idl.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/minireflect.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/reflection.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/reflection_generated.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/registry.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/stl_emulation.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/string.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/struct.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/table.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/util.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/vector.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/vector_downward.h
+        ${FLATBUFFERS_SRC}/include/flatbuffers/verifier.h
+        ${FLATBUFFERS_SRC}/src/idl_parser.cpp
+        ${FLATBUFFERS_SRC}/src/idl_gen_text.cpp
+        ${FLATBUFFERS_SRC}/src/reflection.cpp
+        ${FLATBUFFERS_SRC}/src/util.cpp
+        ${FLATBUFFERS_SRC}/src/idl_gen_fbs.cpp
+        ${FLATBUFFERS_SRC}/src/code_generators.cpp
+        )
+
+
 add_library(edgetpu SHARED
-       ${BUILDROOT}/api/allocated_buffer.cc                                    #LogMessageFatal
-       ${BUILDROOT}/api/buffer.cc                                             #HandleInvalidStatusCtorArg
+        ${BUILDROOT}/api/allocated_buffer.cc                                    #LogMessageFatal
+        ${BUILDROOT}/api/buffer.cc                                             #HandleInvalidStatusCtorArg
         ${BUILDROOT}/api/driver_options_helper.cc                               #ok
-       ${BUILDROOT}/api/layer_information.cc                                   #LogMessageFatal
-       ${BUILDROOT}/api/tensor_util.cc                                         #CheckOpMessageBuilder
-       ${BUILDROOT}/api/watchdog.cc                                            #internal_statusor
-       ${BUILDROOT}/driver/aligned_allocator.cc                                #CheckOpMessageBuilder
-       ${BUILDROOT}/driver/allocator.cc                                        #AllocatedBuffer
-       ${BUILDROOT}/driver/beagle/beagle_kernel_top_level_handler.cc           #LogMessage
-       ${BUILDROOT}/driver/beagle/beagle_pci_driver_provider.cc                #EnumerateSysfs
+        ${BUILDROOT}/api/layer_information.cc                                   #LogMessageFatal
+        ${BUILDROOT}/api/tensor_util.cc                                         #CheckOpMessageBuilder
+        ${BUILDROOT}/api/watchdog.cc                                            #internal_statusor
+        ${BUILDROOT}/driver/aligned_allocator.cc                                #CheckOpMessageBuilder
+        ${BUILDROOT}/driver/allocator.cc                                        #AllocatedBuffer
+        ${BUILDROOT}/driver/beagle/beagle_kernel_top_level_handler.cc           #LogMessage
+        ${BUILDROOT}/driver/beagle/beagle_pci_driver_provider.cc                #EnumerateSysfs
         ${BUILDROOT}/driver/beagle/beagle_pci_driver_provider_linux.cc
         ${BUILDROOT}/driver/beagle/beagle_top_level_handler.cc
         ${BUILDROOT}/driver/beagle/beagle_top_level_interrupt_manager.cc
@@ -124,9 +164,9 @@ add_library(edgetpu SHARED
         ${BUILDROOT}/tflite/edgetpu_manager_direct.cc
         ${TFROOT}/tensorflow/lite/util.cc
         )
-
 set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${pathLIBOPENCV_JAVA})
 add_subdirectory(abseil-cpp)
+#add_subdirectory(flatbuffers)
 
 target_link_libraries(
         edgetpu
@@ -143,8 +183,12 @@ target_link_libraries(
         absl::strings
         absl::synchronization
         ${pathPROJECT}/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so
-        ${TFROOT}/bazel-bin/tensorflow/lite/c/libtensorflowlite_c.so
+        /home/lsh/work1234/home/libtensorflowlite.so
+        flatc_lib
 )
+
+#set_target_properties(edgetpu PROPERTIES LINK_DEPENDS /home/lsh/work1234/home/libedgetpu/tflite/public/libedgetpu.lds)
+
 
 target_link_libraries( # Specifies the target library.
         tensorflow

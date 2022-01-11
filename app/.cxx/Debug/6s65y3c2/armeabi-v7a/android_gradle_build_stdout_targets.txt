@@ -1,2 +1,526 @@
 ninja: Entering directory `/home/lsh/android_opencv_ndk/app/.cxx/Debug/6s65y3c2/armeabi-v7a'
-ninja: no work to do.
+[1/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/allocated_buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[2/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/aligned_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[3/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/device_buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[4/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_kernel_top_level_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[5/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[6/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/buffer.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[7/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_top_level_interrupt_manager.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[8/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_top_level_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[9/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/driver_options_helper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[10/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/dma_chunker.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[11/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/dma_info.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[12/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/watchdog.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[13/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/layer_information.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[14/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[15/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/api/tensor_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[16/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/interrupt/top_level_interrupt_manager.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[17/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/interrupt/grouped_interrupt_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[18/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/device_buffer_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[19/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/interrupt/interrupt_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[20/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/executable_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[21/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/linux/kernel_coherent_allocator_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[22/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/kernel_coherent_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[23/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/dma_info_extractor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[24/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/driver_factory_default.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[25/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/kernel_interrupt_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[26/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/instruction_buffers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[27/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/driver_factory.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[28/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/kernel_event_handler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[29/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/linux/kernel_event_handler_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[30/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/kernel_mmu_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[31/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/linux/kernel_event_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[32/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:36:
+/home/lsh/work1234/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:62:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  HostQueue(const config::QueueCsrOffsets& csr_offsets,
+  ^
+/home/lsh/work1234/home/libedgetpu/port/default/port_from_tf/ptr_util.h:45:11: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::HostQueue' requested here
+      new T(std::forward<Args>(args)...));  // NOLINT(build/c++11)
+          ^
+/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:103:12: note: in instantiation of function template specialization 'platforms::darwinn::gtl::MakeUnique<platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>, const platforms::darwinn::driver::config::QueueCsrOffsets &, const platforms::darwinn::driver::config::ChipStructures &, platforms::darwinn::driver::KernelRegisters *, std::unique_ptr<platforms::darwinn::driver::KernelCoherentAllocator>, const int &, bool>' requested here
+      gtl::MakeUnique<HostQueue<HostQueueDescriptor, HostQueueStatusBlock>>(
+           ^
+In file included from /home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_pci_driver_provider.cc:35:
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[33/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/linux/kernel_registers_linux.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[34/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/mmu_mapper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[35/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/kernel/kernel_registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[36/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/dual_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[37/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/buddy_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[38/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/buddy_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[39/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/mmio/coherent_allocator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[40/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/mmio_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[41/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/memory/nop_address_space.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[42/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/registers/registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[43/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/run_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[44/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/beagle/beagle_usb_driver_provider.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[45/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/libusb_options_default.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[46/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/package_verifier.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[47/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[48/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/scalar_core_controller.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[49/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_dfu_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[50/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_dfu_util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[51/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_io_request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[52/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver_shared/time_stamper/driver_time_stamper.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[53/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_registers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[54/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/real_time_dma_scheduler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[55/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/default/stringprintf.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[56/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/blocking_counter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[57/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/local_usb_device.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[58/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_ml_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[59/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_standard_commands.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[60/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[61/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/default/port_from_tf/status.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[62/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/default/port_from_tf/logging.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[63/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/single_queue_dma_scheduler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[64/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/shared_mutex.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[65/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/default/port_from_tf/statusor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[66/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/single_tpu_request.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[67/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/package_registry.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[68/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/port/timer_portable.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[69/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[70/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/edgetpu_delegate_for_custom_op_tflite_plugin.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[71/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[72/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/edgetpu_c.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[73/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[74/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[75/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[76/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/mmio_driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /home/lsh/work1234/home/libedgetpu/driver/mmio_driver.cc:15:
+/home/lsh/work1234/home/libedgetpu/driver/mmio_driver.h:119:10: warning: 'DoRemoveExecutableTiming' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  Status DoRemoveExecutableTiming(const ExecutableReference* executable) {
+         ^
+/home/lsh/work1234/home/libedgetpu/driver/driver.h:157:18: note: overridden virtual function is here
+  virtual Status DoRemoveExecutableTiming(
+                 ^
+In file included from /home/lsh/work1234/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:164:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_queue_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:308:3: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::MapAll' requested here
+  MapAll();
+  ^
+/home/lsh/work1234/home/libedgetpu/driver/mmio_driver.cc:311:39: note: in instantiation of member function 'platforms::darwinn::driver::HostQueue<platforms::darwinn::driver::HostQueueDescriptor, platforms::darwinn::driver::HostQueueStatusBlock>::Open' requested here
+  RETURN_IF_ERROR(instruction_queue_->Open(address_space_.get()));
+                                      ^
+In file included from /home/lsh/work1234/home/libedgetpu/driver/mmio_driver.cc:15:
+In file included from /home/lsh/work1234/home/libedgetpu/driver/mmio_driver.h:42:
+/home/lsh/work1234/home/libedgetpu/driver/mmio/host_queue.h:175:29: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+                            device_status_block_buffer_.size_bytes());
+                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[77/291] Linking CXX static library abseil-cpp/absl/base/libabsl_spinlock_wait.a
+[78/291] Linking CXX static library abseil-cpp/absl/base/libabsl_log_severity.a
+[79/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/custom_op_data.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[80/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[81/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/tensorflow/tensorflow/lite/util.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[82/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[83/291] Linking CXX static library abseil-cpp/absl/base/libabsl_raw_logging_internal.a
+[84/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[85/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/custom_op.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[86/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[87/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/custom_op_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[88/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[89/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[90/291] Linking CXX static library abseil-cpp/absl/base/libabsl_throw_delegate.a
+[91/291] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[92/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[93/291] Building CXX object abseil-cpp/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[94/291] Linking CXX static library abseil-cpp/absl/base/libabsl_base.a
+[95/291] Linking CXX static library abseil-cpp/absl/base/libabsl_malloc_internal.a
+[96/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[97/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[98/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_commandlineflag_internal.a
+[99/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[100/291] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[101/291] Linking CXX static library abseil-cpp/absl/debugging/libabsl_demangle_internal.a
+[102/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[103/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[104/291] Building CXX object abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[105/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[106/291] Building CXX object abseil-cpp/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[107/291] Linking CXX static library abseil-cpp/absl/debugging/libabsl_debugging_internal.a
+[108/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[109/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[110/291] Linking CXX static library abseil-cpp/absl/debugging/libabsl_stacktrace.a
+[111/291] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_low_level_hash.dir/internal/low_level_hash.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[112/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/custom_op_user_data_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[113/291] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[114/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/edgetpu_context_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[115/291] Linking CXX static library abseil-cpp/absl/hash/libabsl_city.a
+[116/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[117/291] Building CXX object abseil-cpp/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[118/291] Linking CXX static library abseil-cpp/absl/profiling/libabsl_exponential_biased.a
+[119/291] Building CXX object abseil-cpp/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[120/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/tflite/edgetpu_manager_direct.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[121/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_marshalling.dir/marshalling.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[122/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[123/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[124/291] Building CXX object abseil-cpp/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[125/291] Linking CXX static library abseil-cpp/absl/numeric/libabsl_int128.a
+[126/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[127/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[128/291] Linking CXX static library abseil-cpp/absl/hash/libabsl_low_level_hash.a
+[129/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[130/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[131/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[132/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[133/291] Building CXX object CMakeFiles/tensorflow.dir/tensorflow.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[134/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[135/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[136/291] Building CXX object CMakeFiles/edgetpu.dir/home/lsh/work1234/home/libedgetpu/driver/usb/usb_driver.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[137/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[138/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/string_view.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[139/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[140/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[141/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[142/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[143/291] Building CXX object abseil-cpp/absl/flags/CMakeFiles/absl_flags_reflection.dir/reflection.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[144/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_concat.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[145/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[146/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[147/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[148/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[149/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[150/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[151/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[152/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[153/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[154/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_strings_internal.a
+[155/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_strings.a
+[156/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[157/291] Linking CXX static library abseil-cpp/absl/debugging/libabsl_symbolize.a
+[158/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_ring.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[159/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[160/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[161/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_cord_internal.a
+[162/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[163/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[164/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[165/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[166/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[167/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_cordz_functions.a
+[168/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[169/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[170/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[171/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[172/291] Building CXX object abseil-cpp/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[173/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_str_format_internal.a
+[174/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[175/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_marshalling.a
+[176/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[177/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[178/291] Linking CXX static library abseil-cpp/absl/synchronization/libabsl_graphcycles_internal.a
+[179/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[180/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[181/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[182/291] Linking CXX static library abseil-cpp/absl/time/libabsl_civil_time.a
+[183/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[184/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[185/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[186/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[187/291] Building CXX object abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[188/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[189/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[190/291] Building CXX object abseil-cpp/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[191/291] Building CXX object abseil-cpp/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[192/291] Linking CXX static library abseil-cpp/absl/types/libabsl_bad_variant_access.a
+[193/291] Linking CXX static library abseil-cpp/absl/types/libabsl_bad_optional_access.a
+[194/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[195/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_commandlineflag.a
+[196/291] Linking CXX static library abseil-cpp/absl/hash/libabsl_hash.a
+[197/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_private_handle_accessor.a
+[198/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[199/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[200/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[201/291] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/util.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[202/291] Building CXX object abseil-cpp/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[203/291] Linking CXX static library abseil-cpp/absl/time/libabsl_time_zone.a
+[204/291] Linking CXX static library abseil-cpp/absl/time/libabsl_time.a
+[205/291] Linking CXX static library abseil-cpp/absl/synchronization/libabsl_synchronization.a
+[206/291] Linking CXX static library abseil-cpp/absl/container/libabsl_hashtablez_sampler.a
+[207/291] Linking CXX static library abseil-cpp/absl/container/libabsl_raw_hash_set.a
+[208/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_program_name.a
+[209/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_config.a
+[210/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_internal.a
+[211/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/util.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[212/291] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/reflection.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[213/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_cordz_handle.a
+[214/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_cordz_info.a
+[215/291] Linking CXX static library abseil-cpp/absl/strings/libabsl_cord.a
+[216/291] Linking CXX static library abseil-cpp/absl/flags/libabsl_flags_reflection.a
+[217/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/reflection.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[218/291] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/idl_gen_text.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[219/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[220/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[221/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[222/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[223/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[224/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[225/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[226/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[227/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[228/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[229/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[230/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lua.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[231/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[232/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[233/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[234/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[235/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/flatc_main.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[236/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/code_generators.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[237/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[238/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[239/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[240/291] Building CXX object flatbuffers/CMakeFiles/flathash.dir/src/flathash.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[241/291] Linking CXX executable /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flathash
+[242/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[243/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[244/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/flatc.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[245/291] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[246/291] Linking CXX static library flatbuffers/libflatbuffers.a
+[247/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[248/291] Linking CXX shared library /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/libedgetpu.so
+[249/291] Linking CXX shared library /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/libtensorflow.so
+[250/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_parser.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[251/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[252/291] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[253/291] Linking CXX executable /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flatc
+FAILED: /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flatc 
+: && /home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi26 --gcc-toolchain=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -llog -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections flatbuffers/CMakeFiles/flatc.dir/src/idl_parser.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/reflection.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/util.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lua.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/flatc.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/flatc_main.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/code_generators.cpp.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o  -o /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flatc  -latomic -lm && cd /home/lsh/android_opencv_ndk/app/src/main/cpp/flatbuffers && scripts/generate_code.py --flatc /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flatc
+/system/bin/linker: No such file or directory
+Traceback (most recent call last):
+  File "scripts/generate_code.py", line 118, in <module>
+    flatc(
+  File "scripts/generate_code.py", line 77, in flatc
+    result = subprocess.run(cmd, cwd=cwd, check=True)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/6s65y3c2/obj/armeabi-v7a/flatc', '--reflect-names', '--gen-mutable', '--gen-object-api', '--no-includes', '--cpp', '--gen-compare', '--cpp-ptr-type', 'flatbuffers::unique_ptr', '--csharp', '--cs-gen-json-serializer', '--ts', '--gen-name-strings', '--binary', '--java', '--kotlin', '--dart', '--go', '--lobster', '--php', '-I', 'include_test', 'monster_test.fbs', 'monsterdata_test.json']' returned non-zero exit status 255.
+ninja: build stopped: subcommand failed.

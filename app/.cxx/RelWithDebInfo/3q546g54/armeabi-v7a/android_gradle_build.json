@@ -1,0 +1,1286 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/flatbuffers/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/base/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/hash/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/meta/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/time/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/flags/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/types/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/memory/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/random/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/status/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/cleanup/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/numeric/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/strings/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/utility/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/algorithm/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/container/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/debugging/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/profiling/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/functional/CMakeLists.txt",
+    "/home/lsh/android_opencv_ndk/app/src/main/cpp/abseil-cpp/absl/synchronization/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "absl_random_internal_randen_hwaes_impl-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_randen_hwaes_impl"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_randen_hwaes_impl",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_randen_hwaes_impl.a"
+    },
+    "ContinuousSubmit-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousSubmit"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousSubmit"
+    },
+    "ExperimentalTest-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalTest"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalTest"
+    },
+    "ContinuousMemCheck-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousMemCheck"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousMemCheck"
+    },
+    "absl_random_internal_randen-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_randen"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_randen",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_randen.a"
+    },
+    "ContinuousUpdate-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousUpdate"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousUpdate"
+    },
+    "absl_cordz_sample_token-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cordz_sample_token"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cordz_sample_token",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cordz_sample_token.a"
+    },
+    "absl_scoped_set_env-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_scoped_set_env"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_scoped_set_env",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_scoped_set_env.a"
+    },
+    "ContinuousBuild-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousBuild"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousBuild"
+    },
+    "ExperimentalConfigure-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalConfigure"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalConfigure"
+    },
+    "Continuous-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "Continuous"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "Continuous"
+    },
+    "absl_flags_parse-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_parse"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_parse",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_parse.a"
+    },
+    "absl_strings_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_strings_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_strings_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_strings_internal.a"
+    },
+    "absl_log_severity-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_log_severity"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_log_severity",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_log_severity.a"
+    },
+    "absl_flags_config-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_config"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_config",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_config.a"
+    },
+    "NightlySubmit-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlySubmit"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlySubmit"
+    },
+    "absl_city-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_city"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_city",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/hash/libabsl_city.a"
+    },
+    "absl_base-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_base"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_base",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_base.a"
+    },
+    "absl_strings-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_strings"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_strings",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_strings.a"
+    },
+    "absl_random_internal_randen_slow-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_randen_slow"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_randen_slow",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_randen_slow.a"
+    },
+    "NightlyCoverage-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyCoverage"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyCoverage"
+    },
+    "absl_flags_commandlineflag-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_commandlineflag"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_commandlineflag",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_commandlineflag.a"
+    },
+    "absl_random_internal_seed_material-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_seed_material"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_seed_material",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_seed_material.a"
+    },
+    "flatc-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flatc"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flatc",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flatc",
+      "runtimeFiles": []
+    },
+    "absl_exponential_biased-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_exponential_biased"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_exponential_biased",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/profiling/libabsl_exponential_biased.a"
+    },
+    "absl_random_internal_distribution_test_util-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_distribution_test_util"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_distribution_test_util",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_distribution_test_util.a"
+    },
+    "absl_time_zone-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_time_zone"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_time_zone",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/time/libabsl_time_zone.a"
+    },
+    "absl_random_internal_pool_urbg-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_pool_urbg"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_pool_urbg",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_pool_urbg.a"
+    },
+    "absl_cord-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cord"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cord",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cord.a"
+    },
+    "absl_flags_reflection-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_reflection"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_reflection",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_reflection.a"
+    },
+    "absl_random_seed_gen_exception-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_seed_gen_exception"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_seed_gen_exception",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_seed_gen_exception.a"
+    },
+    "absl_leak_check_disable-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_leak_check_disable"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_leak_check_disable",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_leak_check_disable.a"
+    },
+    "absl_cordz_info-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cordz_info"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cordz_info",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cordz_info.a"
+    },
+    "absl_periodic_sampler-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_periodic_sampler"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_periodic_sampler",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/profiling/libabsl_periodic_sampler.a"
+    },
+    "ExperimentalCoverage-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalCoverage"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalCoverage"
+    },
+    "flatsamplebfbs-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flatsamplebfbs"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flatsamplebfbs",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flatsamplebfbs",
+      "runtimeFiles": []
+    },
+    "absl_flags_program_name-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_program_name"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_program_name",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_program_name.a"
+    },
+    "NightlyMemoryCheck-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyMemoryCheck"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyMemoryCheck"
+    },
+    "generated_code-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "generated_code"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "generated_code"
+    },
+    "flathash-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flathash"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flathash",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flathash",
+      "runtimeFiles": []
+    },
+    "NightlyConfigure-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyConfigure"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyConfigure"
+    },
+    "absl_graphcycles_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_graphcycles_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_graphcycles_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/synchronization/libabsl_graphcycles_internal.a"
+    },
+    "absl_stacktrace-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_stacktrace"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_stacktrace",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_stacktrace.a"
+    },
+    "absl_cordz_handle-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cordz_handle"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cordz_handle",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cordz_handle.a"
+    },
+    "absl_symbolize-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_symbolize"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_symbolize",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_symbolize.a"
+    },
+    "absl_status-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_status"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_status",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/status/libabsl_status.a"
+    },
+    "ExperimentalStart-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalStart"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalStart"
+    },
+    "absl_low_level_hash-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_low_level_hash"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_low_level_hash",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/hash/libabsl_low_level_hash.a"
+    },
+    "absl_cord_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cord_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cord_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cord_internal.a"
+    },
+    "absl_raw_hash_set-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_raw_hash_set"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_raw_hash_set",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/container/libabsl_raw_hash_set.a"
+    },
+    "NightlyStart-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyStart"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyStart"
+    },
+    "absl_failure_signal_handler-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_failure_signal_handler"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_failure_signal_handler",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_failure_signal_handler.a"
+    },
+    "absl_strerror-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_strerror"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_strerror",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_strerror.a"
+    },
+    "absl_flags_private_handle_accessor-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_private_handle_accessor"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_private_handle_accessor",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_private_handle_accessor.a"
+    },
+    "absl_bad_any_cast_impl-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_bad_any_cast_impl"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_bad_any_cast_impl",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/types/libabsl_bad_any_cast_impl.a"
+    },
+    "absl_flags_commandlineflag_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_commandlineflag_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_commandlineflag_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_commandlineflag_internal.a"
+    },
+    "absl_bad_optional_access-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_bad_optional_access"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_bad_optional_access",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/types/libabsl_bad_optional_access.a"
+    },
+    "edgetpu-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "edgetpu"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "edgetpu",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/libedgetpu.so",
+      "runtimeFiles": [
+        "/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so",
+        "/home/lsh/work1234/home/libtensorflowlite.so"
+      ]
+    },
+    "ExperimentalUpdate-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalUpdate"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalUpdate"
+    },
+    "absl_spinlock_wait-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_spinlock_wait"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_spinlock_wait",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_spinlock_wait.a"
+    },
+    "absl_random_internal_randen_hwaes-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_randen_hwaes"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_randen_hwaes",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_randen_hwaes.a"
+    },
+    "ExperimentalSubmit-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalSubmit"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalSubmit"
+    },
+    "absl_time-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_time"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_time",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/time/libabsl_time.a"
+    },
+    "ContinuousTest-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousTest"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousTest"
+    },
+    "NightlyTest-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyTest"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyTest"
+    },
+    "ContinuousCoverage-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousCoverage"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousCoverage"
+    },
+    "absl_hash-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_hash"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_hash",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/hash/libabsl_hash.a"
+    },
+    "absl_flags-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags.a"
+    },
+    "ContinuousStart-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousStart"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousStart"
+    },
+    "absl_str_format_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_str_format_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_str_format_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_str_format_internal.a"
+    },
+    "absl_hashtablez_sampler-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_hashtablez_sampler"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_hashtablez_sampler",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/container/libabsl_hashtablez_sampler.a"
+    },
+    "absl_leak_check-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_leak_check"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_leak_check",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_leak_check.a"
+    },
+    "absl_int128-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_int128"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_int128",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/numeric/libabsl_int128.a"
+    },
+    "absl_bad_variant_access-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_bad_variant_access"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_bad_variant_access",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/types/libabsl_bad_variant_access.a"
+    },
+    "absl_raw_logging_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_raw_logging_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_raw_logging_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_raw_logging_internal.a"
+    },
+    "absl_demangle_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_demangle_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_demangle_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_demangle_internal.a"
+    },
+    "absl_civil_time-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_civil_time"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_civil_time",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/time/libabsl_civil_time.a"
+    },
+    "absl_random_distributions-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_distributions"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_distributions",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_distributions.a"
+    },
+    "absl_flags_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_internal.a"
+    },
+    "flatsampletext-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flatsampletext"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flatsampletext",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flatsampletext",
+      "runtimeFiles": []
+    },
+    "NightlyMemCheck-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyMemCheck"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyMemCheck"
+    },
+    "absl_statusor-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_statusor"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_statusor",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/status/libabsl_statusor.a"
+    },
+    "absl_synchronization-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_synchronization"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_synchronization",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/synchronization/libabsl_synchronization.a"
+    },
+    "flattests-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flattests"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flattests",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flattests",
+      "runtimeFiles": []
+    },
+    "ContinuousConfigure-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ContinuousConfigure"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ContinuousConfigure"
+    },
+    "Nightly-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "Nightly"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "Nightly"
+    },
+    "absl_random_internal_platform-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_internal_platform"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_internal_platform",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_internal_platform.a"
+    },
+    "Experimental-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "Experimental"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "Experimental"
+    },
+    "absl_flags_usage_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_usage_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_usage_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_usage_internal.a"
+    },
+    "NightlyBuild-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyBuild"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyBuild"
+    },
+    "absl_malloc_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_malloc_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_malloc_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_malloc_internal.a"
+    },
+    "ExperimentalMemCheck-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalMemCheck"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalMemCheck"
+    },
+    "absl_flags_usage-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_usage"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_usage",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_usage.a"
+    },
+    "absl_random_seed_sequences-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_random_seed_sequences"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_random_seed_sequences",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/random/libabsl_random_seed_sequences.a"
+    },
+    "tensorflow-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "tensorflow"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "tensorflow",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/libtensorflow.so",
+      "runtimeFiles": [
+        "/home/lsh/android_opencv_ndk/opencv/native/libs/armeabi-v7a/libopencv_java4.so",
+        "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/libedgetpu.so",
+        "/home/lsh/Android/Sdk/ndk/18.1.5063045/platforms/android-26/arch-arm/usr/lib/libz.so",
+        "/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so",
+        "/home/lsh/work1234/home/libtensorflowlite.so"
+      ]
+    },
+    "absl_debugging_internal-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_debugging_internal"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_debugging_internal",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_debugging_internal.a"
+    },
+    "absl_examine_stack-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_examine_stack"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_examine_stack",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/debugging/libabsl_examine_stack.a"
+    },
+    "flatbuffers-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flatbuffers"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flatbuffers",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/flatbuffers/libflatbuffers.a"
+    },
+    "absl_cordz_functions-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_cordz_functions"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_cordz_functions",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/strings/libabsl_cordz_functions.a"
+    },
+    "flatsamplebinary-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "flatsamplebinary"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "flatsamplebinary",
+      "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/RelWithDebInfo/3q546g54/obj/armeabi-v7a/flatsamplebinary",
+      "runtimeFiles": []
+    },
+    "absl_throw_delegate-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_throw_delegate"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_throw_delegate",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/base/libabsl_throw_delegate.a"
+    },
+    "ExperimentalBuild-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "ExperimentalBuild"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "ExperimentalBuild"
+    },
+    "absl_flags_marshalling-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "absl_flags_marshalling"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "absl_flags_marshalling",
+      "output": "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a/abseil-cpp/absl/flags/libabsl_flags_marshalling.a"
+    },
+    "NightlyUpdate-RelWithDebInfo-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/3q546g54/armeabi-v7a",
+        "NightlyUpdate"
+      ],
+      "buildType": "release",
+      "abi": "armeabi-v7a",
+      "artifactName": "NightlyUpdate"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

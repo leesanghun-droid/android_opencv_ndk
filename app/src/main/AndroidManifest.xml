@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.opencv_test4">
 
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <!-- android.hardware.usb.host 를 쓴다고 알려 줘야 된다. -->
+
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
@@ -18,7 +23,6 @@
         android:anyDensity="true" />
 
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,8 +37,10 @@
             android:configChanges="keyboardHidden|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                <!-- USB Device 가 연결될때의 Action이라고 알려준다 -->
+
             </intent-filter>
         </activity>
     </application>

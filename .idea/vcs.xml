@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app/src/main/cpp/abseil-cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/flatbuffers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libusb" vcs="Git" />
   </component>
 </project>

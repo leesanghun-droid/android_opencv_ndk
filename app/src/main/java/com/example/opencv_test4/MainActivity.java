@@ -88,9 +88,7 @@ public class MainActivity extends AppCompatActivity
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(0); // front-camera(1),  back-camera(0)
 
-
         AI_INIT();
-
 
     }
 
@@ -134,8 +132,11 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    Integer A =0;
+
     @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
+
 
         matInput = inputFrame.rgba();
 

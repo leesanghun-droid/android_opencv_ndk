@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv_test4.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv_test4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/opencv_test4.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/opencv_test4.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/opencv_test4.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/opencv_test4.myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/opencv_test4.opencv.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/opencv_test4.opencv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tt/opencv_test4.tt.iml" filepath="$PROJECT_DIR$/.idea/modules/tt/opencv_test4.tt.iml" />
     </modules>
   </component>
 </project>

@@ -3,6 +3,12 @@ arguments :
 -C
 /home/lsh/android_opencv_ndk/app/.cxx/Debug/6s65y3c2/armeabi-v7a
 edgetpu
+flatc
+flathash
+flatsamplebfbs
+flatsamplebinary
+flatsampletext
+flattests
 tensorflow
 jvmArgs : 
 

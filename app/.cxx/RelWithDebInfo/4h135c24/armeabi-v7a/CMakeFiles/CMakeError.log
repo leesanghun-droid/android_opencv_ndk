@@ -1,0 +1,26 @@
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/lsh/android_opencv_ndk/app/.cxx/RelWithDebInfo/4h135c24/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/lsh/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e09d9"
+[1/2] Building CXX object CMakeFiles/cmTC_e09d9.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_e09d9.dir/testCXXCompiler.cxx.o 
+/home/lsh/Android/Sdk/ndk/16.1.4479499/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/lsh/Android/Sdk/ndk/16.1.4479499/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/16.1.4479499/sysroot   -isystem /home/lsh/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/lsh/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/lsh/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/lsh/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++17 -llog  -fPIE -o CMakeFiles/cmTC_e09d9.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+error: invalid value 'c++17' in '-std=c++17'
+note: use 'c++98' for 'ISO C++ 1998 with amendments' standard
+note: use 'c++03' for 'ISO C++ 1998 with amendments' standard
+note: use 'gnu++98' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+note: use 'c++0x' for 'ISO C++ 2011 with amendments' standard
+note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+note: use 'gnu++0x' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'c++1y' for 'ISO C++ 2014 with amendments' standard
+note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+note: use 'gnu++1y' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'c++1z' for 'Working draft for ISO C++ 2017' standard
+note: use 'gnu++1z' for 'Working draft for ISO C++ 2017 with GNU extensions' standard
+note: use 'cuda' for 'NVIDIA CUDA(tm)' standard
+ninja: build stopped: subcommand failed.
+
+

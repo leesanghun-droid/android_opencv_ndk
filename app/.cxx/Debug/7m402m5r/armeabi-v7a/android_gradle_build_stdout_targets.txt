@@ -1,0 +1,53 @@
+ninja: Entering directory `/home/lsh/android_opencv_ndk/app/.cxx/Debug/7m402m5r/armeabi-v7a'
+[1/62] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/util.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[2/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/flatc_main.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[3/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[4/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[5/62] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/reflection.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[6/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/code_generators.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[7/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[8/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[9/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[10/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[11/62] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/idl_gen_text.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[12/62] Building CXX object flatbuffers/CMakeFiles/flathash.dir/src/flathash.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[13/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/flatc.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[14/62] Linking CXX executable /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flathash
+[15/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[16/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[17/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[18/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[19/62] Building CXX object flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+[20/62] Linking CXX executable /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flatc
+FAILED: /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flatc 
+: && /home/lsh/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/lsh/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/lsh/Android/Sdk/ndk/17.2.4988734/sysroot  -isystem /home/lsh/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++17 -llog -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /home/lsh/Android/Sdk/ndk/17.2.4988734/platforms/android-26/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/home/lsh/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie flatbuffers/CMakeFiles/flatc.dir/src/idl_parser.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/reflection.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/util.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_lua.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/flatc.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/flatc_main.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o flatbuffers/CMakeFiles/flatc.dir/src/code_generators.cpp.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o flatbuffers/CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o  -o /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flatc  -latomic -lm "/home/lsh/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_static.a" "/home/lsh/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++abi.a" "/home/lsh/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" "-ldl" && cd /home/lsh/android_opencv_ndk/app/src/main/cpp/flatbuffers && scripts/generate_code.py --flatc /home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flatc
+/system/bin/linker: No such file or directory
+Traceback (most recent call last):
+  File "scripts/generate_code.py", line 118, in <module>
+    flatc(
+  File "scripts/generate_code.py", line 77, in flatc
+    result = subprocess.run(cmd, cwd=cwd, check=True)
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/7m402m5r/obj/armeabi-v7a/flatc', '--reflect-names', '--gen-mutable', '--gen-object-api', '--no-includes', '--cpp', '--gen-compare', '--cpp-ptr-type', 'flatbuffers::unique_ptr', '--csharp', '--cs-gen-json-serializer', '--ts', '--gen-name-strings', '--binary', '--java', '--kotlin', '--dart', '--go', '--lobster', '--php', '-I', 'include_test', 'monster_test.fbs', 'monsterdata_test.json']' returned non-zero exit status 255.
+[21/62] Building CXX object flatbuffers/CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o
+clang++: warning: -llog: 'linker' input unused [-Wunused-command-line-argument]
+ninja: build stopped: subcommand failed.

@@ -30,10 +30,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
     externalNativeBuild {
         cmake {
             path file('src/main/cpp/CMakeLists.txt')
@@ -44,10 +40,10 @@ android {
         viewBinding true
         mlModelBinding true
     }
-    aaptOptions {
-        noCompress "tflite"
+    ndkVersion '17.2.4988734'
+    dependenciesInfo {
+        includeInBundle false
     }
-    ndkVersion '23.1.7779620'
 }
 
 dependencies {
