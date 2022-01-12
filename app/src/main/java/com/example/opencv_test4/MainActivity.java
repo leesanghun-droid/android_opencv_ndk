@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity
 
     static {
         System.loadLibrary("tensorflow");
+        System.loadLibrary("usb1.0");
     }
 
 

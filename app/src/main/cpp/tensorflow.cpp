@@ -4,7 +4,8 @@
 #include "tensorflow/lite/kernels/register.h"
 #include "tensorflow/lite/model.h"
 #include "tensorflow/lite/builtin_op_data.h"
-#include "edgetpu_c.h"
+//#include "edgetpu_c.h"
+#include "edgetpu.h"
 #include "tensorflow/lite/tools/gen_op_registration.h"
 
 #include <opencv2/opencv.hpp>
@@ -18,9 +19,9 @@ using namespace cv;
 
 uint8_t face_image[sizeof(uint8_t)*320*320*3];
 
-std::unique_ptr<tflite::Interpreter> interpreter_edge;
-std::unique_ptr<tflite::FlatBufferModel> model;
-tflite::ops::builtin::BuiltinOpResolver resolver;
+//std::unique_ptr<tflite::Interpreter> interpreter_edge;
+//std::unique_ptr<tflite::FlatBufferModel> model;
+//tflite::ops::builtin::BuiltinOpResolver resolver;
 
 extern "C"
 JNIEXPORT void JNICALL
@@ -33,39 +34,64 @@ Java_com_example_opencv_1test4_MainActivity_AI_1INIT(JNIEnv *env, jobject thiz) 
 
     __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "%s",pstrBuffer);
 
-    model = tflite::FlatBufferModel::BuildFromFile("/data/tflite/gender/fourteen.tflite");
-    tflite::InterpreterBuilder(*model, resolver)(&interpreter_edge);
 
+    auto tpu_context =
+            edgetpu::EdgeTpuManager::GetSingleton()->OpenDevice();
 
+    std::unique_ptr<tflite::Interpreter> interpreter;
+    tflite::ops::builtin::BuiltinOpResolver resolver;
 
-    size_t num_devices;
-    std::unique_ptr<edgetpu_device, decltype(&edgetpu_free_devices)> devices(edgetpu_list_devices(&num_devices), &edgetpu_free_devices);
+    auto model =
+            tflite::FlatBufferModel::BuildFromFile("/data/tflite/gender/fourteen.tflite");
 
-        __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "tpu_num : %d\r\n",num_devices);
+    resolver.AddCustom(edgetpu::kCustomOp, edgetpu::RegisterCustomOp());
 
-    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG1\r\n");
+    tflite::InterpreterBuilder(*model, resolver)(&interpreter);
 
-    const auto &device = devices.get()[0];
+    // Binds a context with a specific interpreter.
+    interpreter->SetExternalContext(kTfLiteEdgeTpuContext,
+                                    tpu_context.get());
 
-    auto* delegate = edgetpu_create_delegate(device.type, device.path, nullptr, 0);
+    // Note that all edge TPU context set ups should be done before this
+    // function is called.
+    interpreter->AllocateTensors();
 
+    interpreter->Invoke();
 
-    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG2\r\n");
-
-
-    interpreter_edge->ModifyGraphWithDelegate(delegate);
-    //interpreter_edge->ModifyGraphWithDelegate(delegate);
-
-    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG3\r\n");
-
-    interpreter_edge->SetNumThreads(1);
-
-    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG4\r\n");
-
-    interpreter_edge->AllocateTensors();
-
-
-    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG5\r\n");
+//
+//    model = tflite::FlatBufferModel::BuildFromFile("/data/tflite/gender/fourteen.tflite");
+//    tflite::InterpreterBuilder(*model, resolver)(&interpreter_edge);
+//
+//
+//
+//    size_t num_devices;
+//    std::unique_ptr<edgetpu_device, decltype(&edgetpu_free_devices)> devices(edgetpu_list_devices(&num_devices), &edgetpu_free_devices);
+//
+//        __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "tpu_num : %d\r\n",num_devices);
+//
+//    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG1\r\n");
+//
+//    const auto &device = devices.get()[0];
+//
+//    auto* delegate = edgetpu_create_delegate(device.type, device.path, nullptr, 0);
+//
+//
+//    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG2\r\n");
+//
+//
+//    interpreter_edge->ModifyGraphWithDelegate(delegate);
+//    //interpreter_edge->ModifyGraphWithDelegate(delegate);
+//
+//    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG3\r\n");
+//
+//    interpreter_edge->SetNumThreads(1);
+//
+//    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG4\r\n");
+//
+//    interpreter_edge->AllocateTensors();
+//
+//
+//    __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "DEBUG5\r\n");
 
 
 }

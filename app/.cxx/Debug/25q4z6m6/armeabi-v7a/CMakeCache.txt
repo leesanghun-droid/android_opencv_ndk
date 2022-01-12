@@ -562,7 +562,7 @@ absl_time_LIB_DEPENDS:STATIC=general;absl::base;general;absl::civil_time;general
 absl_time_zone_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-edgetpu_LIB_DEPENDS:STATIC=general;absl::flags_internal;general;absl::strings_internal;general;absl::flags_reflection;general;absl::flags_marshalling;general;absl::hash;general;absl::hashtablez_sampler;general;absl::raw_hash_set;general;absl::log_severity;general;absl::str_format_internal;general;absl::strings;general;absl::synchronization;general;/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so;general;/home/lsh/work1234/home/libtensorflowlite.so;general;flatc_lib;
+edgetpu_LIB_DEPENDS:STATIC=general;absl::flags_internal;general;absl::strings_internal;general;absl::flags_reflection;general;absl::flags_marshalling;general;absl::hash;general;absl::hashtablez_sampler;general;absl::raw_hash_set;general;absl::log_severity;general;absl::str_format_internal;general;absl::strings;general;absl::synchronization;general;/home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so;general;/home/lsh/work1234/home/libtensorflowlite.so;general;flatc_lib;
 
 //Dependencies for target
 flatc_lib_LIB_DEPENDS:STATIC=

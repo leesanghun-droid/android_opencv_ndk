@@ -182,7 +182,7 @@ target_link_libraries(
         absl::str_format
         absl::strings
         absl::synchronization
-        ${pathPROJECT}/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so
+        /home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so
         /home/lsh/work1234/home/libtensorflowlite.so
         flatc_lib
 )

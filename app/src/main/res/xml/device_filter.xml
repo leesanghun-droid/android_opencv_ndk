@@ -1,0 +1,6 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+    <resources>
+    <!-- EDGETPU idVendor=1a6e, idProduct=089a, bcdDevice= 1.00 -->
+    <usb-device vendor-id="6766" product-id="2202" />
+    <!-- … more devices … -->
+    </resources>

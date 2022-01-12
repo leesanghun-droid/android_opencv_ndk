@@ -320,7 +320,7 @@
       "artifactName": "edgetpu",
       "output": "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/25q4z6m6/obj/armeabi-v7a/libedgetpu.so",
       "runtimeFiles": [
-        "/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so",
+        "/home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so",
         "/home/lsh/work1234/home/libtensorflowlite.so"
       ]
     },
@@ -656,7 +656,7 @@
         "/home/lsh/android_opencv_ndk/opencv/native/libs/armeabi-v7a/libopencv_java4.so",
         "/home/lsh/android_opencv_ndk/app/build/intermediates/cxx/Debug/25q4z6m6/obj/armeabi-v7a/libedgetpu.so",
         "/home/lsh/Android/Sdk/ndk/17.2.4988734/platforms/android-26/arch-arm/usr/lib/libz.so",
-        "/home/lsh/android_opencv_ndk/app/src/main/cpp/libusb/armeabi-v7a/libusb1.0.so",
+        "/home/lsh/libusb/android/libs/armeabi-v7a/libusb1.0.so",
         "/home/lsh/work1234/home/libtensorflowlite.so"
       ]
     },
