@@ -62,5 +62,10 @@ adb shell dmesg  명령으로 usb 연결시 unsuport devices 라고 나오면 �
 **/
 
 
+1. 소스코드 참조
+   (1) android_opencv_ndk/app/src/main/cpp/CMakeLists.txt (가장중요)
+   (2) abseil-cpp 라이브러리 cpp 폴더 내에서 git clone https://github.com/abseil/abseil-cpp.git
+   (3) 
+
 
 
