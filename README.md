@@ -49,3 +49,18 @@ url : https://github.com/opencv/opencv/releases?page=3
 (2) 소스코드 참조
 
 	https://webnautes.tistory.com/1054
+	
+	
+	
+	
+------------------ android ndk 용 edgetpu 라이브러리 빌드 ---------------------
+
+
+/**중요 사항
+edgetpu usb 타입의 경우 안드로이드에서 해당 usb를 반드시 지원하는지는 먼저 체크 해야함. !!
+adb shell dmesg  명령으로 usb 연결시 unsuport devices 라고 나오면 안되는 것임
+**/
+
+
+
+
